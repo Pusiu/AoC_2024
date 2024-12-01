@@ -1,0 +1,7 @@
+.vscode
+bin/*
+obj/*
+inputs/*_test.*
+inputs/*
+{i,I}nputs
+cookie.txt
