@@ -1,5 +1,3 @@
-using System.Linq;
-
 namespace AoC_2024
 {
     public class Day1 : Day

@@ -1,5 +1,3 @@
-using System.Reflection;
-using System.Net;
 using System.Text.RegularExpressions;
 using System.Diagnostics;
 
@@ -7,7 +5,7 @@ namespace AoC_2024
 {
     public abstract class Day
     {
-        protected string input;
+        protected string input="";
         protected bool isTest = false;
         public virtual async void Run()
         {
