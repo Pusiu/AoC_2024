@@ -11,6 +11,7 @@ namespace AoC_2024
         {
             if (string.IsNullOrEmpty(input))
                 input = await GetInput();
+            Console.WriteLine($"Running {this}");
             var stopwatch = Stopwatch.StartNew();
             Console.WriteLine($"Part 1: {Part1()}\nin {stopwatch.Elapsed}");
             stopwatch.Restart();
